@@ -37,8 +37,11 @@ namespace TestProject.TaskLibrary.Tasks.Lesson1
             }
         }
 
-
         public void Run()
+        {
+
+        }
+        public void Main()
         {
             Rectangle rectInstance = new Rectangle(4, 2, 10, 0);
             Console.Write("Rectangle perimether equals: ");
