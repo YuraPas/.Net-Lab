@@ -46,7 +46,7 @@ namespace TestProject.TaskLibrary.Tasks.Lesson1
             Complex firstInstance = new Complex(5, 2);
             Complex secondInstance = new Complex(4, 3);
             Complex multiplicationResult = firstInstance * secondInstance;
-            Complex divisionResult = firstInstance * secondInstance;
+            Complex divisionResult = firstInstance / secondInstance;
             //output each instance properties
 
 
