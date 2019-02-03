@@ -37,19 +37,16 @@ namespace TestProject.TaskLibrary.Tasks.Lesson1
             }
         }
 
+        
         public void Run()
-        {
-
-        }
-        public void Main()
         {
             Rectangle rectInstance = new Rectangle(4, 2, 10, 0);
             Console.Write("Rectangle perimether equals: ");
-            Console.WriteLine(rectInstance.CalculatePerimeter(rectInstance._xPointLeftFirst, rectInstance._yPointLeftFirst, rectInstance._xPointLeftSecond, rectInstance._yPointLeftSecond));
+            Console.WriteLine(CalculatePerimeter(rectInstance._xPointLeftFirst, rectInstance._yPointLeftFirst, rectInstance._xPointLeftSecond, rectInstance._yPointLeftSecond));
 
 
             Console.Write("Rectangle square equals: ");
-            Console.WriteLine(rectInstance.CalculateSquare(rectInstance._xPointLeftFirst, rectInstance._yPointLeftFirst, rectInstance._xPointLeftSecond, rectInstance._yPointLeftSecond));
+            Console.WriteLine(CalculateSquare(rectInstance._xPointLeftFirst, rectInstance._yPointLeftFirst, rectInstance._xPointLeftSecond, rectInstance._yPointLeftSecond));
 
         }
 

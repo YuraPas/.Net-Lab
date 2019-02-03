@@ -45,7 +45,7 @@ namespace TestProject.TaskLibrary.Tasks.Lesson1
             Rectangle rectInstance = new Rectangle(4, 2, 10, 0);
             Console.WriteLine($"Rectangle perimether equals: {rectInstance.perimether}" );
             
-            Console.Write($"Rectangle square equals:{rectInstance.square} ");
+            Console.Write($"Rectangle square equals:{rectInstance.square}");
             
         }
     }
