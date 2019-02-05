@@ -49,16 +49,12 @@ namespace TestProject.TaskLibrary.Tasks.Lesson1
             Complex secondInstance = new Complex(4, 3);
             Complex multiplicationResult = firstInstance * secondInstance;
             Complex divisionResult = firstInstance / secondInstance;
-<<<<<<< HEAD
 
             Console.WriteLine($"{multiplicationResult.Real} + {multiplicationResult.Imaginary}i"); // 14 + 23i 
 
             Console.WriteLine($"{divisionResult.Real} + {divisionResult.Imaginary}i");
 
 
-=======
-            //output each instance properties
->>>>>>> 8409697e81f78794c2bc4442af4fad8f9a4ec875
 
 
         }

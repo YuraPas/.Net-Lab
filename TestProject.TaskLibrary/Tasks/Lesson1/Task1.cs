@@ -24,6 +24,7 @@ namespace TestProject.TaskLibrary.Tasks.Lesson1
 
             }
 
+
             /// <summary>
             /// Method for calculating perimether of Rectangle based on 2 points
             /// </summary>

@@ -16,7 +16,6 @@ namespace TestProject.TaskLibrary.Tasks.Lesson1
             public static double _yPointLeftSecond;
 
 
-
             /// <summary>
             /// Calculater Perimiter with two points given as paramethers
             /// </summary>

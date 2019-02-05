@@ -68,8 +68,8 @@ namespace TestProject.TaskLibrary.Tasks.Lesson1
         {
             Rectangle rectInstance = new Rectangle(4, 2, 10, 0);
             rectInstance.PropertyInitializer();
-            Console.WriteLine($"Rectangle perimether equals: {rectInstance.perimether}");
 
+            Console.WriteLine($"Rectangle perimether equals: {rectInstance.perimether}");
             Console.Write($"Rectangle square equals:{rectInstance.square}");
         }
     }

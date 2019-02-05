@@ -44,6 +44,7 @@ namespace TestProject.TaskLibrary.Tasks.Lesson1
         public void Run()
         {
             Circle circle = new Circle(5);
+
             Console.WriteLine(circle.ComputeLenght(circle._radius));
             Console.WriteLine(circle.ComputeSquare(circle._radius));
         }
