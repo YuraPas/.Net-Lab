@@ -4,7 +4,9 @@ using System.Text;
 
 namespace TestProject.Common.Core.Interfaces
 {
-    class IPrinter
+    public interface IPrinter
     {
+        void Print(string message);
+        int Read();
     }
 }
