@@ -5,7 +5,7 @@ using TestProject.Common.Core.Interfaces;
 
 namespace TestProject.TaskLibrary.Tasks.Lesson2
 {
-    public class Task3 : IRunnable
+    public class Task3 : IRunnable, IPrinter
     {
         public enum YearPeriod : int
         {
@@ -37,13 +37,23 @@ namespace TestProject.TaskLibrary.Tasks.Lesson2
 
         public void Run()
         {
-            int userInput = Convert.ToInt32(Console.ReadLine());
+            int userInput = Read();
             while (userInput > 4 || userInput < 0)
             {
                 userInput = Convert.ToInt32(Console.ReadLine());
             }
             //todo : put the process of user input into another method
-            Console.WriteLine(OuputYearPeriod(userInput));
+            Print(OuputYearPeriod(userInput));
+        }
+
+        public void Print(object message)
+        {
+            Console.WriteLine(message.ToString());
+        }
+
+        public int Read()
+        {
+            return Convert.ToInt32(Console.ReadLine());
         }
     }
 }
