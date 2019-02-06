@@ -2,10 +2,11 @@
 using System.Collections.Generic;
 using System.Text;
 using TestProject.Common.Core.Interfaces;
+using TestProject;
 
 namespace TestProject.TaskLibrary.Tasks.Lesson2
 {
-    public class Task3 : IRunnable, IPrinter
+    public class Task3 : IRunnable
     {
         public enum YearPeriod : int
         {
@@ -37,23 +38,16 @@ namespace TestProject.TaskLibrary.Tasks.Lesson2
 
         public void Run()
         {
-            int userInput = Read();
+            ConsolePrinter consoleSubstitutor = new ConsolePrinter();
+            int userInput = consoleSubstitutor.Read();
             while (userInput > 4 || userInput < 0)
             {
-                userInput = Convert.ToInt32(Console.ReadLine());
+                userInput = Convert.ToInt32(consoleSubstitutor.Read());
             }
             //todo : put the process of user input into another method
-            Print(OuputYearPeriod(userInput));
+            consoleSubstitutor.Print(OuputYearPeriod(userInput));
         }
 
-        public void Print(object message)
-        {
-            Console.WriteLine(message.ToString());
-        }
-
-        public int Read()
-        {
-            return Convert.ToInt32(Console.ReadLine());
-        }
+        
     }
 }

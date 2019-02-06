@@ -6,7 +6,7 @@ namespace TestProject.Common.Core.Interfaces
 {
     public interface IPrinter
     {
-        void Print(string message);
+        void Print(object message);
         int Read();
     }
 }

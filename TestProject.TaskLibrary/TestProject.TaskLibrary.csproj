@@ -8,4 +8,11 @@
     <ProjectReference Include="..\TestProject.Common.Core\TestProject.Common.Core.csproj" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="Tasks\Csharp Udemy Course\DataTypes\" />
+    <Folder Include="Tasks\Csharp Udemy Course\ConditionalStatements\" />
+    <Folder Include="Tasks\Csharp Udemy Course\ForLoop\" />
+    <Folder Include="Tasks\Csharp Udemy Course\Arrays\" />
+  </ItemGroup>
+
 </Project>
