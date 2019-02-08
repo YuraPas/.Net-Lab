@@ -9,8 +9,26 @@ namespace TestProject.TaskLibrary.Tasks.Csharp_Udemy_Course.Basic
     {
         public void Run()
         {
-            // #5
-            int firstNumber, secondNumber,thirdNumber, result;
+
+            // #5 
+            int firstNumb, secondNumb, buffer;
+            Console.Write("\nInput the First Number : ");
+            firstNumb = int.Parse(Console.ReadLine());
+            Console.Write("\nInput the Second Number : ");
+            secondNumb = int.Parse(Console.ReadLine());
+
+            buffer = firstNumb;
+            firstNumb = secondNumb;
+            secondNumb = buffer;
+
+            Console.Write("\nAfter Swapping : ");
+            Console.Write("\nFirst Number : " + firstNumb);
+            Console.Write("\nSecond Number : " + secondNumb);
+            Console.Read();
+
+
+            // #6
+            int firstNumber, secondNumber,thirdNumber;
 
             Console.Write("Input the first number to multiply: ");
             firstNumber = Convert.ToInt32(Console.ReadLine());
@@ -21,11 +39,10 @@ namespace TestProject.TaskLibrary.Tasks.Csharp_Udemy_Course.Basic
             Console.Write("Input the third number to multiply: ");
             thirdNumber = Convert.ToInt32(Console.ReadLine());
 
-            result = firstNumber * secondNumber * thirdNumber;
-            Console.WriteLine($"Output: {firstNumber} x {secondNumber} x {thirdNumber} = {result}");
+            Console.WriteLine($"Output: {firstNumber} x {secondNumber} x {thirdNumber} = {firstNumber * secondNumber * thirdNumber}");
 
 
-            // #6 
+            // #7 
 
             Console.Write("Enter a number: ");
             int testFirstNumb = Convert.ToInt32(Console.ReadLine());
@@ -39,12 +56,12 @@ namespace TestProject.TaskLibrary.Tasks.Csharp_Udemy_Course.Basic
             Console.WriteLine("{0} / {1} = {2}", testFirstNumb, testSecondNumb, testFirstNumb / testSecondNumb);
             Console.WriteLine("{0} mod {1} = {2}", testFirstNumb, testSecondNumb, testFirstNumb % testSecondNumb);
 
-            // #7 
+            // #8
 
             Console.WriteLine("Enter a number:");
             int input = Convert.ToInt32(Console.ReadLine());
             
-            result = input * 1;
+            int result = input * 1;
             Console.WriteLine("The table is : {0} x {1} = {2}", input, 1, result);
             result = input * 2;
             Console.WriteLine("/t: {0} x {1} = {2}", input, 2, result);
@@ -56,21 +73,7 @@ namespace TestProject.TaskLibrary.Tasks.Csharp_Udemy_Course.Basic
             Console.WriteLine("/t: {0} x {1} = {2}", input, 5, result);
             result = input * 6;
 
-            // #8
-
-
-            char char1, char2, char3;
-
-            Console.Write("Input letter: ");
-            char1 = Convert.ToChar(Console.ReadLine());
-
-            Console.Write("Input letter: ");
-            char2 = Convert.ToChar(Console.ReadLine());
-
-            Console.Write("Input letter: ");
-            char3 = Convert.ToChar(Console.ReadLine());
-
-            Console.WriteLine($"{char1} {char2} {char3}");
+           
 
         }
     }

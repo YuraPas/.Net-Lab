@@ -16,7 +16,7 @@ namespace TestProject.TaskLibrary.Tasks.Csharp_Udemy_Course.Basic
             Console.WriteLine(66 + 33);
 
             // #3 
-            Console.WriteLine(20 / 4);
+            Console.WriteLine(10 / 2);
 
             // #4
             Console.WriteLine(-1 + 4 * 6);
