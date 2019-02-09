@@ -11,7 +11,10 @@ namespace TestProject.TaskLibrary.Tasks.Csharp_Udemy_Course.Basic
         {
 
             // #5 
-            int firstNumb, secondNumb, buffer;
+            int firstNumb;
+            int secondNumb;
+            int buffer;
+
             Console.Write("\nInput the First Number : ");
             firstNumb = int.Parse(Console.ReadLine());
             Console.Write("\nInput the Second Number : ");
@@ -28,7 +31,9 @@ namespace TestProject.TaskLibrary.Tasks.Csharp_Udemy_Course.Basic
 
 
             // #6
-            int firstNumber, secondNumber,thirdNumber;
+            int firstNumber;
+            int secondNumber;
+            int thirdNumber;
 
             Console.Write("Input the first number to multiply: ");
             firstNumber = Convert.ToInt32(Console.ReadLine());
@@ -60,7 +65,7 @@ namespace TestProject.TaskLibrary.Tasks.Csharp_Udemy_Course.Basic
 
             Console.WriteLine("Enter a number:");
             int input = Convert.ToInt32(Console.ReadLine());
-            
+
             int result = input * 1;
             Console.WriteLine("The table is : {0} x {1} = {2}", input, 1, result);
             result = input * 2;
@@ -73,7 +78,7 @@ namespace TestProject.TaskLibrary.Tasks.Csharp_Udemy_Course.Basic
             Console.WriteLine("/t: {0} x {1} = {2}", input, 5, result);
             result = input * 6;
 
-           
+
 
         }
     }

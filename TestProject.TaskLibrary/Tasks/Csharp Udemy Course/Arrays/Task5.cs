@@ -13,7 +13,8 @@ namespace TestProject.TaskLibrary.Tasks.Csharp_Udemy_Course.Arrays
 
             int[] array = new int[100];
             int[] copy = new int[100];
-            int numbStored, i, j;
+            int numbStored;
+            int i, j;
 
             numbStored = Convert.ToInt32(Console.ReadLine());
 

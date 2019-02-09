@@ -12,7 +12,8 @@ namespace TestProject.TaskLibrary.Tasks.Csharp_Udemy_Course.Arrays
 
             int[] source = new int[100];
             int[] destination = new int[100];
-            int i, n;
+            int i;
+            int n;
 
             n = Convert.ToInt32(Console.ReadLine());
 

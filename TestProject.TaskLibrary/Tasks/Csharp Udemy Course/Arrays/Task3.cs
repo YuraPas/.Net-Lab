@@ -10,7 +10,8 @@ namespace TestProject.TaskLibrary.Tasks.Csharp_Udemy_Course.Arrays
         public void Run()
         {
             int[] arr = new int[100];
-            int i, sum = 0;
+            int i;
+            int sum = 0;
 
 
             int n = Convert.ToInt32(Console.ReadLine());

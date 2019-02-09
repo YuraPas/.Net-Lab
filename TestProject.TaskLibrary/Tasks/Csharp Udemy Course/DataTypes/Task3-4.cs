@@ -11,7 +11,8 @@ namespace TestProject.TaskLibrary.Tasks.Csharp_Udemy_Course.DataTypes
         {
             // #3
 
-            string username, password;
+            string username;
+            string password;
             bool success = false;
             int attempts = 0;
 
@@ -48,8 +49,10 @@ namespace TestProject.TaskLibrary.Tasks.Csharp_Udemy_Course.DataTypes
 
             Console.Write("Input first number: ");
             firstInput = Convert.ToInt32(Console.ReadLine());
+
             Console.Write("Input operation: ");
             operationChar = Convert.ToChar(Console.ReadLine());
+
             Console.Write("Input second number: ");
             secondInput = Convert.ToInt32(Console.ReadLine());
 

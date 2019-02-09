@@ -11,11 +11,15 @@ namespace TestProject.TaskLibrary.Tasks.Csharp_Udemy_Course.ConditionalStatement
         {
             // #1
 
-            int firstNumber, secondNumber;
+            int firstNumber;
+            int secondNumber;
+
             Console.Write("Input 1st number: ");
             firstNumber = Convert.ToInt32(Console.ReadLine());
+
             Console.Write("Input 2nd number: ");
             secondNumber = Convert.ToInt32(Console.ReadLine());
+
             if (firstNumber == secondNumber)
                 Console.WriteLine($"{firstNumber} and {secondNumber} are equal.\n");
             else
@@ -25,11 +29,14 @@ namespace TestProject.TaskLibrary.Tasks.Csharp_Udemy_Course.ConditionalStatement
             // #2
 
 
-            int userInput, reminder;
+            int userInput;
+            int reminder;
 
             Console.Write("Input an integer : ");
             userInput = Convert.ToInt32(Console.ReadLine());
+
             reminder = userInput % 2;
+
             if (reminder == 0)
                 Console.WriteLine($"{0} is an even integer.\n", userInput);
             else
