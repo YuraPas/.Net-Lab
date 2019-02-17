@@ -11,6 +11,11 @@ namespace TestProject
             //List of .NetLab Tasks
             var tasks = new IRunnable[]
             {
+                /*
+                new TaskLibrary.Tasks.Lesson5.Task1(),
+                new TaskLibrary.Tasks.Lesson5.Task2(),
+                new TaskLibrary.Tasks.Lesson5.Task3()
+                */
 
                 //Testing Lesson3
                 /*
