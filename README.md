@@ -1,3 +1,5 @@
 # .Net-Lab
 
-All changed in repo are made in dev branch
+
+File that summarizes the content of a particular directory.
+
